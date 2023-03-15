@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background: rgba(12, 187, 231, 0.852);
+    color: #fff;
+    font-family: cursive;
+    padding: 10px;
+}
+
+.navbar-nav
+{
+    margin-left: 60%;
+}
+
+.navbar-nav .nav-item a
+{
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-item a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.landing
+{
+    background-image: url('./images/3.jpg');
+    height: 170vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

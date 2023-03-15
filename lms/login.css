@@ -1,0 +1,79 @@
+.form1 form
+{
+    background: #070707cb;
+    padding: 5px 35px; 
+    /* margin-top: 5%; */
+    border-radius: 25px;
+}
+
+.form form
+{
+    background: #070707cb;
+    padding: 50px; 
+    margin-top: 20%;
+    /* border-radius: 25px; */
+}
+
+
+
+.landing
+{
+    background-image: url('./images/1.jpg');
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+form #label1,#label2
+{
+    color: red;
+    visibility: hidden;
+}
+
+input
+{
+    background-color: rgba(0, 0, 0, 0.699);
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.btn
+{
+    color: #fff;
+    background: #00ff00b2;
+    border: 1px solid rgb(247, 243, 240);
+}
+
+.btn:hover
+{
+    color: #fff;
+    background: rgba(218, 107, 4, 0.801);
+    border: 1px solid rgb(248, 245, 245);
+}
+
+.welcome .content
+{
+    background: #1b8be7be;
+    margin-top: 20%;
+    padding: 50px; 
+}
+
+.content img
+{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.content h5
+{
+    font-size: 1.5rem;
+}
+    margin-top: 30px;

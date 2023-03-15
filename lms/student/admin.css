@@ -1,0 +1,211 @@
+.sidebar
+{
+    height: 200vh;
+    background: linear-gradient(rgba(4, 140, 182, 0.9), rgba(0, 0, 0, .9)), url('./4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px, 7px, 25px, #999;
+}
+.topbar
+{
+    /* margin-left: 20%; */
+}
+
+.content
+{
+    margin-left: 18%;
+}
+.content nav
+{
+    visibility: hidden;
+}
+.sidebar-header img
+{
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin-top: 15px; */
+    margin-left: 40%;
+}
+
+.sidebar-content div
+{
+    border-radius: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.sidebar-content .home
+{
+    background-color: #e01f11da;
+    padding: 5px;
+}
+
+.sidebar-content div:hover
+{
+    background: #351a04;
+    padding: 4px;
+}
+.sidebar-content .home:hover
+{
+    background: #d6670c;
+}
+
+.sidebar-content a
+{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-bottom: 10px; */
+}
+
+.sidebar-content .logout
+{
+    background: #0000ff;
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.content .topbar a
+{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.books
+{
+    background: #69e069e0;
+    padding-top: 10px;
+}
+
+.profile
+{
+    /* background-color: #000; */
+}
+
+.profile .profile-photo img
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 8%;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+#editform
+{
+    transform: scale(0);
+}
+.open-popup
+{
+    visibility: visible;
+    /* transform: scale(1); */
+}
+
+.books p
+{
+    padding: 3px;
+    margin-top: 10px;
+   background: #033a03;
+   font-size: 18px;
+}
+
+.card
+{
+    width: 90%;
+    /* padding-top: 20px; */
+    margin-left: 2%;
+}
+
+a .card
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.students
+{
+    background: #ebb94fe1;
+    padding-top: 10px;
+}
+
+.students p
+{
+    background: #8b6001;
+    padding: 3px;
+    margin-top: 4px;
+   font-size: 18px;
+}
+
+.requests
+{
+    background: #40b7dbe1;
+    padding-top: 10px;
+}
+.categories
+{
+    background: #b93636e1;
+    padding-top: 10px;
+}
+
+.categories p
+{
+    background: #610303;
+    padding: 3px;
+    margin-top: 4px;
+    font-size: 18px
+}
+.requests p
+{
+    background: #033952;
+    padding: 3px;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+@media (max-width: 900px)
+{
+    .sidebar
+    {
+        display: none;
+    }
+
+    .content
+    {
+        margin-left: 2%;
+    }
+
+    .content nav
+    {
+        visibility: visible;
+    }
+    .navbar .navbar-nav li a {
+        color: rgb(53, 8, 158) !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .navbar .navbar-nav .nav-item a:hover {
+        color:#ff7770!important;
+        text-decoration: none;
+        background: white;
+        border-bottom: 2px solid black;
+        border-radius: 10px;
+    
+    }
+}
+@media (min-width:900px)
+{
+    .content
+{
+    margin-left: 18%;
+}
+}
